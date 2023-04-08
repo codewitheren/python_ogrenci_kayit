@@ -34,7 +34,7 @@ def ogrenci_liste():
     dosya.close()
 
 kayit = 1
-dosya = open("kayit.txt", "r+")
+dosya = open("kayit.txt", "w+")
 
 print("Öğrenci Kayıt Otomasyonu\n")
 print("(1) Öğrenci Ekle\n")
